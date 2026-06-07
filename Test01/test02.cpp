@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void change(int value);
+void change(int& value);
 
 int main() {
 	int number = 10;
@@ -15,10 +15,6 @@ int main() {
 	return 0;
 }
 
-void change(int value) {
+void change(int& value) {
 	value *= 2;
-
-	cout << "in function change: number = " << value << "\n";
-
-
 }
