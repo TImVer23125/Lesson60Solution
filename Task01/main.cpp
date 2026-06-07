@@ -4,12 +4,11 @@
 using namespace std;
 
 int main() {
-	int x = 10;
-	int y = 7;
+	int x = 10, y = 7;
 
 	cout << "before: x =  " << x << ", y = " << y << ".\n";
 
-	swapping(&x, &y);
+	swapping(x, y);
 
 	cout << "after: x =  " << x << ", y = " << y << ".\n";
 
